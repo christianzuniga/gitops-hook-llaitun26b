@@ -1,0 +1,3 @@
+#!/bin/sh
+# Prueba de laboratorio: solo escribe un marcador inofensivo en el log del build.
+echo "HOOK_OK_LAB_MARKER $(id -un) $(pwd)"
